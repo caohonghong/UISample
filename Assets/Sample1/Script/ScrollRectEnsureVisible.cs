@@ -1,11 +1,13 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 using System.Collections;
 using System;
+using UnityEngine.UI;
+
 
 [RequireComponent(typeof(ScrollRect))]
 public class ScrollRectEnsureVisible : MonoBehaviour
 {
+    
 
 	#region Public Variables
 
@@ -22,7 +24,7 @@ public class ScrollRectEnsureVisible : MonoBehaviour
 	internal RectTransform mContent;
 	bool initialised = false;
 
-	#endregion
+	#endregion  
 
 	void Initialise()
 	{
